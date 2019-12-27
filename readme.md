@@ -1,6 +1,6 @@
 # Avoid being blocked while scraping with puppeteer
 
-This package has some sample code using [positionstack](https://positionstack.com/). Positionstack is an API that is extremely easy to use for any kind of location or geocoding.
+This package shows strategies to avoid being blocked while using puppeteer for web scraping.
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ If you plan on using the reCaptcha solver portion you'll need to get a token fro
 
 After that, you just need to run `npm start`.
 
-[Full Guide Here](https://javascriptwebscrapingguy.com/jordan-uses-positionstack/)
+[Full Guide Here](https://javascriptwebscrapingguy.com/avoid-being-blocked-with-puppeteer/)
 
 ### Prerequisites
 
