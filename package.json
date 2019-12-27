@@ -1,0 +1,38 @@
+{
+	"name": "avoid-being-blocked-with-puppeteer",
+	"version": "1.0.0",
+	"description": "Puppeteer stealth is a great tool to help you avoid being blocked while web scraping with puppeteer. Easy to use and is very powerful.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aarmora/avoid-being-blocked-with-puppeteer.git"
+	},
+	"keywords": [
+		"puppeteer",
+		"javscript",
+		"typescript",
+		"web",
+		"scraping"
+	],
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aarmora/avoid-being-blocked-with-puppeteer/issues"
+	},
+	"homepage": "https://github.com/aarmora/avoid-being-blocked-with-puppeteer#readme",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"puppeteer": "^2.0.0",
+		"puppeteer-extra": "^3.1.7",
+		"puppeteer-extra-plugin-recaptcha": "^3.1.8",
+		"puppeteer-extra-plugin-stealth": "^2.4.5"
+	},
+	"devDependencies": {
+		"@types/dotenv": "^8.2.0",
+		"@types/puppeteer": "^2.0.0",
+		"typescript": "^3.7.4"
+	}
+}
